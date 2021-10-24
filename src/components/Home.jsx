@@ -12,6 +12,8 @@ class Home extends React.Component {
     }
 
     render() {
+        
+
         return (
             <div className="home">
                 <div class="dash-container">
@@ -19,6 +21,8 @@ class Home extends React.Component {
                     <h2>Recommended Events</h2>
                 </div>
                 <Event infos={this.state.infos} />
+                <div class="dash-container">
+                </div>
             </div>
         );
     }
