@@ -16,7 +16,7 @@ export const INFOS =
             id: 2,
             name: 'Book Club - 10/30/21',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-            tag1: '#soccer',
-            tag2: '#sports',
+            tag1: '#books',
+            tag2: '#reading',
         }
     ]
