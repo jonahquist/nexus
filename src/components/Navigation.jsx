@@ -26,7 +26,7 @@ function Navigation(props) {
                             <li class={`nav-item ${
                                 props.location.pathname === "/explore" ? "active" : ""
                             }`}>
-                                <Link to="/explore" class="nav-link">Explore</Link>
+                                <Link to="/explore" class="nav-link">Profile</Link>
                             </li>
                         </ul>
                 </div>

@@ -153,6 +153,25 @@ img {
     margin-bottom: 40px;
 }
 
+.interests {
+    margin-left: 40px;
+    margin-top: -20px;
+    width: 500px;
+    height: 100px;
+}
+
+.calendar {
+    color: black;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.profile {
+    color: white;
+    font-size: 40px;
+    margin: 40px;
+}
+
 @media screen and (max-width: 750px) {
     img {display: none;}
     .landing-block {margin: auto; margin-top: 10%;}
