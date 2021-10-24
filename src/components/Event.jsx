@@ -1,12 +1,19 @@
 import React from "react";
 import './event.css';
 import { Media} from 'reactstrap';
+import Button from "./ButtonParent"
 
 class Event extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            active: false,
+        };
+    }
 
-        this.state = {};
+    toggleClass()  {
+        const currentState = this.state.active;
+        this.setState({active: !currentState});
     }
 
     render() {
@@ -14,9 +21,13 @@ class Event extends React.Component {
             return(
                 <div class="event"key={info.id}>
                     <div body className="details">
-                        <h3>{info.name}</h3>
+                        <h3 className={this.state.active ? "active" : "not"}>{info.name}</h3>
                         <div>{info.description}</div>
-                        <div>{info.tags}</div>
+                        <ul class="tags">
+                            <li>{info.tag1}</li>
+                            <li>{info.tag2}</li>
+                        </ul>
+                        <Button />
                     </div> 
                 </div>
             )
