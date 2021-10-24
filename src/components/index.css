@@ -1,0 +1,23 @@
+.navigation {
+    font-family: "Poppins"
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav Link {
+    display: block;
+    padding: 8px;
+    background-color: gray;
+}
+
+.active a{
+    color: red;
+}
