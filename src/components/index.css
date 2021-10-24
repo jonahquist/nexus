@@ -2,6 +2,13 @@
     font-family: "Poppins"
 }
 
+.splash {
+    font-family: "Poppins";
+    margin: 0;
+
+
+}
+
 .topnav ul{
     list-style-type: none;
     margin: 0;
@@ -20,4 +27,141 @@
 
 .active a{
     color: red;
+}
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    /*background: rgb(71,122,237);
+    background: linear-gradient(90deg, rgba(71,122,237,1) 0%, rgba(67,238,190,1) 51%, rgba(0,255,255,1) 100%);
+    */
+    background: rgb(71, 184, 237);
+}
+
+.landing-block {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10%;
+    max-width: 760px;
+    width: 70vw;
+}
+
+.landing-block h1 {
+    font-size:calc(45px + 2.5vw);
+    margin-bottom: 0;
+    color: rgb(255, 251, 0);
+    font-weight: 400;
+    font-family: "Poppins"
+    
+}
+
+.landing-block p {
+    font-size:calc(15px + 0.3vw);
+    margin-bottom: 40px;
+    color: white;
+}
+
+img {
+    float: right;
+    margin-right: 15vw;
+    margin-top: -8vw;
+    width: 37vw;
+    max-width: 600px;
+    min-width: 350px;
+}
+
+.dash-button {
+    font-size: 18px;
+    background-color: #fff;
+    color: #477aed;
+    padding: 10px 30px;
+    margin-right: 25px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border-color: #477aed;
+    border-style: solid;
+    border-width: 2px;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+.sched-button {
+    font-size: 18px;
+    pointer-events: nones;
+    background-color: #477aed;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    filter: drop-shadow(1px 1px 2px black);
+
+}
+
+
+.topnav {
+    background-color: #fff;
+    background: linear-gradient(to right, #477aed, rgb(71, 184, 237));
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    margin: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.nav-logo {
+    color:rgb(255, 251, 0);
+    font-size: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dash-container {
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.dash-container h1 {
+    color:rgb(255, 251, 0);
+    font-size: 60px;
+}
+
+.dash-container h2 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 750px) {
+    img {display: none;}
+    .landing-block {margin: auto; margin-top: 10%;}
+    .dash-button {margin-left: 0px;}
+}
+
+@media screen and (max-width: 650px) {
+    .dash-container {margin: auto; margin-top: 40px}
+    .dash-container h1{text-align: center;}
+    .dash-container h2{text-align: center;}
+
 }
